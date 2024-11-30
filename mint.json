@@ -1,57 +1,73 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Compendium Kirchnerianum",
-  "logo": {
-    "dark": "/logo/logo.svg",
-    "light": "/logo/logo.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#810808",
-    "light": "#810808",
-    "dark": "#0492d4"
-  },
-  "topbarLinks": [{"name": "Contact", "url": "mailto:contact@kirchner.io"}],
-  "topbarCtaButton": {
-    "name": "Home",
-    "url": "https://docs.kirchner.io"
-  },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://compendium.kirchner.io"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://kirchner.io/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Compendium",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/kirchnerianum",
-    "github": "https://github.com/mkirch",
-    "linkedin": "https://www.linkedin.com/in/michaelrkirchner"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Compendium Kirchnerianum",
+	"logo": {
+		"dark": "/logo/logo.svg",
+		"light": "/logo/logo.svg"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#810808",
+		"light": "#810808",
+		"dark": "#0492d4"
+	},
+	"topbarLinks": [{ "name": "Contact", "url": "mailto:contact@kirchner.io" }],
+	"topbarCtaButton": {
+		"name": "Home",
+		"url": "https://docs.kirchner.io"
+	},
+	"anchors": [
+		{
+			"name": "Blog",
+			"icon": "newspaper",
+			"url": "https://kirchner.io/blog"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Compendium",
+			"pages": [
+				"compendium/anomalies",
+				"compendium/blogs",
+				"compendium/bookbinding",
+				"compendium/books",
+				"compendium/data-sources",
+				"compendium/data-storage",
+				"compendium/data-visualization",
+				"compendium/design",
+				"compendium/domains",
+				"compendium/github",
+				"compendium/gpu-programming",
+				"compendium/graphs",
+				"compendium/hackers",
+				"compendium/history",
+				"compendium/human-machine-interaction",
+				"compendium/industrial-products",
+				"compendium/libraries-list",
+				"compendium/maps",
+				"compendium/mathematics",
+				"compendium/multimodal-ai",
+				"compendium/music",
+				"compendium/osint",
+				"compendium/overlanding",
+				"compendium/philosophy",
+				"compendium/print",
+				"compendium/rust",
+				"compendium/semantic-web",
+				"compendium/semantics",
+				"compendium/societies",
+				"compendium/standards",
+				"compendium/theorem-proving",
+				"compendium/training-neural-networks",
+				"compendium/transformers",
+				"compendium/wasm",
+				"compendium/wget"
+			]
+		}
+	],
+	"footerSocials": {
+		"x": "https://x.com/kirchnerianum",
+		"github": "https://github.com/mkirch",
+		"linkedin": "https://www.linkedin.com/in/michaelrkirchner"
+	}
 }
