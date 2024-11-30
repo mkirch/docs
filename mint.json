@@ -6,33 +6,16 @@
     "light": "/logo/logo.svg"
   },
   "favicon": "/favicon.svg",
-  {
-    "colors": {
-      "primary": "#810808",
-      "light": "#F6CAC9",
-      "dark": "#4D0000",
-      "secondary": "#7E3610",
-      "background": "#1E1E1E",
-      "text": "#FFFFFF",
-      "muted": "#933A3A",
-      "anchors": {
-        "from": "#810808",
-        "to": "#07C983"
-      }
-    }
+  "colors": {
+    "primary": "#810808",
+    "light": "#810808",
+    "dark": "#0492d4"
   },
-  "topbarLinks": [
-    {
-      "name": "Contact",
-      "url": "mailto:contact@kirchner.io"
-    }
-  ],
+  "topbarLinks": [{"name": "Contact", "url": "mailto:contact@kirchner.io"}],
   "topbarCtaButton": {
     "name": "Home",
     "url": "https://docs.kirchner.io"
   },
-  "tabs": [
-  ],
   "anchors": [
     {
       "name": "Documentation",
